@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MakeMyTrip</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- custome css file link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- header section starts -->
+    <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+
+        <a href="#" class="logo"><span>H</span>otel Booking</a>
+        <nav class="navbar">
+             <a href="#home">home</a>
+             <a href="#packages">packages</a>
+             <a href="#services">services</a>
+             <a href="#gallery">gallery</a>
+             <a href="#review">review</a>
+             <a href="#contact">contact</a>
+             <a href="#book">book</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+
+<!-- header section ends -->
+
+<!-- login form container -->
+
+<div class="login-form-container">
+    <i class="fas fa-times" id="form-close"></i>
+    <form action="">
+         <h3>login</h3>
+         <input type="email" class="box" placeholder="enter your email">
+         <input type="password" class="box" placeholder="enter your password">
+         <input type="submit" value="login now" class="btn">
+         <input type="checkbox" id="remember">
+         <label for="remember">Remember me</label>
+         <p>forget password? <a href="#">click here</a></p>
+         <p>don't have an account? <a href="#">register now</a></p>
+    </form>
+</div>
+
+<!-- home section starts -->
+
+<section class="home" id="home">
+    <div class="content">
+        <h3>welcome and Book Your Ideal Hotel Online</h3>
+        <p>dicover new places with us, MakeMyTrip awaits</p>
+        <a href="#" class="btn">discover more</a>
+    </div>
+
+    <div class="controls">
+        <span class="vid-btn active" data-src="./Videos/vid 1.mp4"></span>
+        <span class="vid-btn" data-src="./Videos/vid 2.mp4"></span>
+        <span class="vid-btn" data-src="./Videos/vid 3.mp4"></span>
+        <span class="vid-btn" data-src="./Videos/vid 4.mp4"></span>
+        <span class="vid-btn" data-src="./Videos/vid 5.mp4"></span>
+    </div>
+
+    <div class="video-container">
+        <video src="./Videos/vid 1" id="video-slider" loop autoplay muted></video>
+    </div>
+
+</section>
+
+
+<!-- home section ends -->
+
+
+
+<!-- packages section starts -->
+
+<section class="packages" id="packages">
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span><br></br>
+        These popular destinations have a lot to offer
+        
+    </h1>
+
+    <div class="box-container">
+        <div class="box">
+            <img src="./Images/mumbai.jpeg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Mumbai </h3>
+                <p>Mumbai,the commerical,financial & entertainment capital of India,is among the top cities in 
+                    the world.If your plan include a tour of this amazing city,then probably you should avail
+                Mumbai hotels packages,which would include both tour & accommodation.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+
+                <div class="price"> starting from ₹1950 <span>₹2000</span></div>
+                <a href="#" class="btn">book now </a>
+            </div>
+            </div>
+            
+            
+            <div class="box">
+            <img src="./Images/rajasthan.jpeg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Rajasthan </h3>
+                <p>Thinking of booking Rajasthan tour packages? Here is our extract from the best of Rajasthan
+                    packages for your convenience.If your plan include a tour of this amazing city,then probably you should avail
+                    rajasthan hotels packages,which would include both tour & accommodation.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">starting from ₹4490 <span> ₹5500</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="./Images/kerala.jpeg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Kerala </h3>
+                <p>Thinking of booking kerala tour packages? Here is our extract from the best of kerala
+                    packages for your convenience.If your plan include a tour of this amazing city,then
+                    probably you should avail kerala hotels packages,which would include both tour & accommodation.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div> 
+                <div class="price">starting from  ₹3999 <span> ₹4500</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="./Images/jammu&kashmir.jpeg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Jammu & Kashmir </h3>
+                <p>Thinking of booking J&K tour packages? Here is our extract from the best of j&k
+                    packages for your convenience.If your plan include a tour of this amazing city,then probably
+                    you should avail j&k hotels packages,which would include both tour & accommodation.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">starting from ₹2900 <span> ₹3255</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="./Images/Goa.webp" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Goa</h3>
+                <p>Thinking of booking goa tour packages? Here is our extract from the best of goa
+                    packages for your convenience.If your plan include a tour of this amazing city,then probably
+                    you should avail goa hotels packages,which would include both tour & accommodation.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">starting from ₹6200 <span> ₹6865</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+
+        <div class="box">
+            <img src="./Images/leh&ladakh.jpeg" alt="">
+            <div class="content">
+                <h3><i class="fas fa-map-marker-alt"></i> Leh Ladakh </h3>
+                <p>Thinking of booking Leh Ladakh tour packages? Here is our extract from the best of Leh Ladakh
+                    packages for your convenience.If your plan include a tour of this amazing city,then probably
+                    you should avail Leh Ladakh hotels packages,which would include both tour & accommodation.</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <div class="price">starting from ₹7500 <span> ₹8000</span></div>
+                <a href="#" class="btn">book now</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- packages section ends -->
+
+<!-- services section starts -->
+
+<section class="services" id="services">
+    <h1 class="heading">
+        <span>s</span>
+        <span>e</span>
+        <span>r</span>
+        <span>v</span>
+        <span>i</span>
+        <span>c</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-hotel"></i>
+                <h3>affordable hotels</h3>
+                <p>We list classiest budget hotels on our site.Ranging from class hotels to luxury beach resorts,
+                    each hotel on our site gives memorable staying experience. Enjoy cheap hotel deals for any
+                    destination with great savings.
+                </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-utensils"></i>
+                <h3>food and drinks</h3>
+                <p>There are various features an elegant restaurant that serves an array of mouth-watering 
+                    delicacies.
+                </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-bullhorn"></i>
+                <h3>safty guide</h3>
+                <p>We provide trained security guards,surveillance cameras,fire alarms,emergency manual,
+                    keycard locks.  </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-globe-asia"></i>
+                <h3>around the world</h3>
+                <p>We provide services for all around the world. Anyone can book their comfortable packages
+                    with a reasonable price from anywhere.
+                </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-plane"></i>
+                <h3>fastest travel</h3>
+                <p>We provides Cheap flights, trains, and hotels for individuals, families or corporations.
+                    Having a car and scooty to move from one place to another nearby can be a very beneificial
+                    and comfortable.
+                </p>
+        </div>
+        <div class="box">
+            <i class="fas fa-hiking"></i>
+                <h3>adventures</h3>
+                <p>The perfect adventure resort will place you smack dab in the middle of some of the 
+                    most breathtaking landscapes on earth,offering a variety of outdoor activities,
+                    often with guided expertise, gear and all you need to enjoy an unforgettable 
+                    adventure.
+                </p>
+        </div>
+    </div>
+</section>
+
+
+<!-- services section ends -->
+
+<!-- gallery section starts -->
+
+<section class="gallery" id="gallery">
+    <h1 class="heading">
+        <span>g</span>
+        <span>a</span>
+        <span>l</span>
+        <span>l</span>
+        <span>e</span>
+        <span>r</span>
+        <span>y</span>
+    </h1>
+
+
+<div class="box-container">
+    <div class="box">
+        <img src="./Images/g1.jpeg" alt="">
+        <div class="content">
+            <h3>amazing places</h3>
+            <p>55 Most Beautiful Places to visit in mumbai</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="./Images/g2.jpeg" alt="">
+        <div class="content">
+            <h3>amazing places</h3>
+            <p>amazing places to vist in rajasthan</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="./Images/g3.jpeg" alt="">
+        <div class="content">
+            <h3>amazing places</h3>
+            <p>Most beautiful and amazing places in kerala.</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="./Images/g4.jpeg" alt="">
+        <div class="content">
+            <h3>amazing places</h3>
+            <p>40 breathtaking places to visi in jamum & kashmir.</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="./Images/g5.jpeg" alt="">
+        <div class="content">
+            <h3>amazing places</h3>
+            <p>Shimla snowfall pictures are waiting for to explore.</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="./Images/g6.webp" alt="">
+        <div class="content">
+            <h3>amazing places</h3>
+            <p>Goa: Tourism eyes high value domestic visitors.</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="./Images/g7.jpeg" alt="">
+        <div class="content">
+            <h3>amazing places</h3>
+            <p>23 best places to visit leh ladakh.</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="./Images/g8.jpeg" alt="">
+        <div class="content">
+            <h3>amazing places</h3>
+            <p>Explore most amazing places that melt your eyes.</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <div class="box">
+        <img src="./Images/g9.jpeg" alt="">
+        <div class="content">
+            <h3>amazing places</h3>
+            <p>Plan your next Vaishnno Devi Yatra and explore it.</p>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+</div>
+</section>
+
+<!-- gallery section ends -->
+
+<!-- review section start -->
+
+<section class="review" id="review">
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+    <div class="swiper mySwiper review-slider">
+        <div class="swiper-wrapper wrapper">
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="./Images/r1.jpeg" alt="">
+                    <h3>Julie Merchant</h3>
+                    <p>Lovely hotel in an excellent location. Rooms are spotless & cleaned daily, breakfast is
+                       plentiful. Staff are very helpful & plenty of restaurants nearby to experience proper
+                       Indian cooking.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="./Images/r2.jpeg" alt="">
+                    <h3>Santosh Rathod</h3>
+                    <p>What a great hotel! Clean, friendly en near the biggest Rome station. We are a family
+                       with 2 adults and 2 children. Great vacation for a one week.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="./Images/r3.jpeg" alt="">
+                    <h3>Vamika Sharma</h3>
+                    <p>Had a brilliant stay. Cannot fault hotel. It was clean, in a good location, served a 
+                       great breakfast and the staff were extremely helpful. Would definitely recommend and 
+                       would certainly stay here again.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                </div>
+            </div>
+
+            <div class="swiper-slide">
+                <div class="box">
+                    <img src="./Images/r4.jpeg" alt="">
+                    <h3>Riyan Gupta</h3>
+                    <p>Nice hotel with friendly staff. Breakfast good but could be better. Happy Hour a nice
+                       touch.</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                </div>
+                </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- review section ends -->
+
+<!-- contact section starts -->
+
+<section class="contact" id="contact">
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span><br></br>
+        Need help planning your holiday?
+    </h1>
+    <div class="row">
+        <div class="img">
+            <img src="./Images/contact.jpeg" alt="">
+        </div>
+        <form action="">
+            <div class="inputBox">
+                <input type="text" placeholder="name">
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <input type="number" placeholder="number">
+                <input type="text" placeholder="subject">
+                <input type="text" placeholder="feedback">
+            </div>
+            <textarea placeholder="message" name="" cols="30" rows="10"></textarea>
+            <input type="submit" class="btn" value="send message">
+        </form>
+    </div>
+</section>
+
+<!-- contact section ends -->
+
+<!-- brand section -->
+
+<section class="brand-container">
+    <div class="swiper mySwiper brand-slider">
+        <div class="swiper-wrapper wrapper">
+            <div class="swiper-slide"><img src="./Images/p1.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./Images/p2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./Images/p3.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./Images/p4.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./Images/p5.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./Images/p6.jpg" alt=""></div>
+        </div>
+    </div>
+</section>
+
+<!-- book section starts -->
+
+<section class="book" id="book">
+    <h1 class="heading">
+        <span>b</span>
+        <span>o</span>
+        <span>o</span>
+        <span>k</span>
+        <span class="space"></span>
+        <span>n</span>
+        <span>o</span>
+        <span>w</span>
+    </h1>
+
+    <div class="row">
+        <div class="img">
+            <img src="./Images/hotelbook.webp" alt="">
+        </div>
+
+        <form action="">
+              <div class="inputBox">
+                  <h3>where to</h3>
+                  <input type="text" placeholder="place name">
+              </div>
+              <div class="inputBox">
+                <h3>how many</h3>
+                <input type="number" placeholder="number of guests">
+            </div>
+            <div class="inputBox">
+                <h3>arrivals</h3>
+                <input type="date">
+            </div>
+            <div class="inputBox">
+                <h3>leaving</h3>
+                <input type="date">
+            </div>
+            <input type="submit" class="btn" value="book now">
+        </form>
+    </div>
+</section>
+<!-- book section ends -->
+</section>
+<section class="map top">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15258072.40570261!2d82.75252935!3d20.98801345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1674576036768!5m2!1sen!2sin" width="600" height="450" style="border:0;" 
+    
+      allowfullscreen="" loading="lazy" width="100%"></iframe>
+  </section>
+
+<!-- footer section -->
+
+<section class="footer">
+    <div class="box-container">
+        <div class="box">
+            <h3>about us</h3>
+            <p>MakeMyTrip mission is to make it easier for everyone to experience the world.By investing in
+                the technology that helps take the friction out of travel,MakeMyTrip seamlessly connects 
+                millions of travellers with memorable experiences, a range of transport options and incredible
+                places to stay-from homes to hotels and much more.</p>
+        </div>
+        <div class="box">
+            <h3>branch locations</h3>
+            <a href="#">mumbai</a>
+            <a href="#">rajasthan</a>
+            <a href="#">shimla</a>
+            <a href="#">kerala</a>
+            <a href="#">goa</a>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">home</a>
+            <a href="#">package</a>
+            <a href="#">service</a>
+            <a href="#">gallery</a>
+            <a href="#">review</a>
+            <a href="#">contact</a>
+            <a href="#">book</a>
+        </div><span>
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="#">facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">twitter</a>
+            <a href="#">likedin</a></div> </span> 
+        </div>
+    </div>
+    <h1 class="credit"> created by <span>GEC Chandrapur Students</span> | all rights reserved!! </h1>
+</section>
+
+
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- custome js file link -->
+    <script src="main.js"></script>
+</body>
+</html>
